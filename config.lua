@@ -255,9 +255,6 @@ Config = {
 		["voodoo"] = {		emote = "whiskey",		canRun = true, 	time = math.random(3000, 4000), stress = math.random(2, 4), heal = 0, armor = 0,  type = "alcohol", stats = { thirst = math.random(35,54), canOD = true }},
 		["woowoo"] = {		emote = "whiskey",		canRun = true, 	time = math.random(3000, 4000), stress = math.random(2, 4), heal = 0, armor = 0,  type = "alcohol", stats = { thirst = math.random(35,54), canOD = true }},
 
-		-- MOONSHINE
-		["m-moonshine"] = {	emote = "whiskey",		canRun = true, 	time = math.random(3000, 4000), stress = math.random(2, 4), heal = 0, armor = 0,  type = "alcohol", stats = { thirst = math.random(35,54), canOD = true }},
-		
 		-- RCORE-CASINO
 			-- Casino Bar Drinks
 		["casino_beer"] = { 		emote = "beer", 		canRun = true, 	time = math.random(3000, 4000), stress = math.random(2, 4), heal = 0, armor = 0, type = "alcohol", stats = { thirst = math.random(35,54), canOD = true }},
@@ -339,11 +336,6 @@ Config = {
 		-- Testing these but they may be best left handled by default scripts
 		-- ["ifaks"] = { 			emote = "oxy", 		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 10, armor = 0, type = "drug", stats = { effect = "heal", amount = 6, widepupils = false, canOD = false } },
 		-- ["bandage"] = { 		emote = "oxy", 		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 10, armor = 0, type = "drug", stats = { effect = "heal", amount = 3, widepupils = false, canOD = false } },
-
-		--Testing effects & armor with small functionality to drugs - This may be another one left to default scripts
-		["joint"] = { 			emote = "joint2",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
-		["xtcbaggy"] = { 		emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { effect = "strength", widepupils = true, canOD = true } },
-		["oxy"] = { 			emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { effect = "heal", widepupils = false, canOD = false } },
 		
 		--[[SCREEN EFFECTS]]
 			-- weed = cloudy then colorful then drunk and colorful (moving screen)
@@ -353,6 +345,31 @@ Config = {
 			-- trevor = colorful and cloudy with occasional oulsing
 			-- nightvision = nothing
 			-- thermal = nothing
+
+		--Testing effects & armor with small functionality to drugs - This may be another one left to default scripts
+
+		-- Envi-trap-phone
+		["cokebaggy"] = { 		emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "turbo",   effect = "stamina", widepupils = false, canOD = true } },
+		["coke_7g"] = { 		emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "turbo",   effect = "stamina", widepupils = false, canOD = true } },
+		["coke_1oz"] = { 		emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "turbo",   effect = "stamina", widepupils = false, canOD = true } },
+		["crack_baggy"] = { 	emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "turbo",   effect = "stamina", widepupils = false, canOD = true } },
+		["crack_7g"] = { 		emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "turbo",   effect = "stamina", widepupils = false, canOD = true } },
+		["crack_1oz"] = { 		emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "turbo",   effect = "stamina", widepupils = false, canOD = true } },
+		["meth"] = { 			emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "turbo",   effect = "stamina", widepupils = false, canOD = true } },
+		["meth_7g"] = { 		emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "turbo",   effect = "stamina", widepupils = false, canOD = true } },
+		["meth_1oz"] = { 		emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "turbo",   effect = "stamina", widepupils = false, canOD = true } },
+		["weedbaggy"] = { 		emote = "edibles",	time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "turbo",   effect = "stamina", widepupils = false, canOD = true } },
+		["weed_7g"] = { 		emote = "edibles",	time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "turbo",   effect = "stamina", widepupils = false, canOD = true } },
+		["weed_1oz"] = { 		emote = "edibles",	time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "turbo",   effect = "stamina", widepupils = false, canOD = true } },
+
+		-- Drugs
+		["joint"] = { 			emote = "joint2",	time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "weed",    effect = "stamina", widepupils = false, canOD = false } },
+		["xtcbaggy"] = { 		emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { effect = "strength", effect = "stamina", widepupils = false, canOD = true } },
+		["oxy"] = { 			emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { effect = "heal",    effect = "stamina", widepupils = false, canOD = true } },
+		["heroinbaggy"] = { 	emote = "heroin",	time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "rampage", effect = "stamina", widepupils = false, canOD = true } },
+		["heroin_1oz"] = { 		emote = "heroin",	time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "rampage", effect = "stamina", widepupils = false, canOD = true } },
+		["liquidheroin"] = { 	emote = "heroin",	time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "rampage", effect = "stamina", widepupils = false, canOD = true } },
+		["morphine"] = { 		emote = "heroin",	time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "rampage", effect = "stamina", widepupils = false, canOD = true } },
 
 		--[[BOII-weed]]
 			--Joints
@@ -375,14 +392,8 @@ Config = {
 		-- ["weed_zkittlez"] = { 		emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { screen = "weed", effect = "stamina", widepupils = false, canOD = true }, requiredItem = "lighter" },
 
 		--[[BOII-meth]]
-		["meth"] = { 			emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "turbo", effect = "stamina", widepupils = false, canOD = true } },
-		-- ["meth_1oz"] = { 		emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "turbo", effect = "stamina", widepupils = false, canOD = true } },
 
 		--[[BOII-heroin]]
-		["morphine"] = { 		emote = "heroin",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "rampage", effect = "stamina", widepupils = false, canOD = true }, requiredItem = "syringe" },
-		-- ["heroin_1oz"] = { 		emote = "heroin",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "rampage", effect = "stamina", widepupils = false, canOD = true }, requiredItem = "syringe" },
-		["heroinbaggy"] = { 	emote = "heroin",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "rampage", effect = "stamina", widepupils = false, canOD = true }, requiredItem = "syringe" },
-		["liquidheroin"] = { 	emote = "heroin",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "rampage", effect = "stamina", widepupils = false, canOD = true }, requiredItem = "syringe" },
 
 		--[[BOII-bestbuds]]
 			--Bags
@@ -405,11 +416,7 @@ Config = {
 		["gummy_amnesia_cbd"] = { 		emote = "edibles",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { screen = "trevor", effect = "stamina", widepupils = false, canOD = true } },
 		
 		--[[BOII-cocaine]]
-		["cokebaggy"] = { 		emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { screen = "turbo", effect = "stamina", widepupils = false, canOD = true } },
-		-- ["coke_1oz"] = { 		emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { screen = "turbo", effect = "stamina", widepupils = false, canOD = true } },
-		["crack_baggy"] = { 	emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { screen = "turbo", effect = "stamina", widepupils = false, canOD = true }, requiredItem = "lighter" },
-		-- ["crack_1oz"] = { 		emote = "meth",		time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { screen = "turbo", effect = "stamina", widepupils = false, canOD = true }, requiredItem = "lighter" },
-		
+
 		--[[jixel-whitewidow]]
 			--Joints
 		["afghankush_joint"] = {	emote = "joint",	time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
