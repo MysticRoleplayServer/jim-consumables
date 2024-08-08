@@ -369,7 +369,7 @@ Config = {
 		["heroinbaggy"] = { 	emote = "heroin",	time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "rampage", effect = "stamina", widepupils = false, canOD = true } },
 		["heroin_1oz"] = { 		emote = "heroin",	time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "rampage", effect = "stamina", widepupils = false, canOD = true } },
 		["liquidheroin"] = { 	emote = "heroin",	time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "rampage", effect = "stamina", widepupils = false, canOD = true } },
-		["morphine"] = { 		emote = "heroin",	time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "rampage", effect = "stamina", widepupils = false, canOD = true } },
+		-- ["morphine"] = { 		emote = "heroin",	time = math.random(3000, 4000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "rampage", effect = "stamina", widepupils = false, canOD = true } },
 
 		--[[BOII-weed]]
 			--Joints
